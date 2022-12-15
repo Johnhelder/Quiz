@@ -74,3 +74,16 @@ h1 {
 .option:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.scoreArea {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.prizeImage {
+  width: auto;
+  height: 100px;
+  margin-bottom: 10px;
+}
