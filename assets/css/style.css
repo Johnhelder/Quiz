@@ -41,3 +41,20 @@ h1 {
     max-width: 500px;
     width: 100%;
 }
+
+.question {
+  color: #FFF;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.option {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  color: #AAA;
+  font-size: 16px;
+  cursor: pointer;
+}
