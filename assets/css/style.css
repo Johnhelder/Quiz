@@ -18,3 +18,16 @@ h1 {
   color: #FFF;
   margin: 20px 0;
 }
+
+.progress {
+  height: 5px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+.progress--bar {
+  background-color: #00FF00;
+  height: 100%;
+  transition: all ease .5s;
+}
