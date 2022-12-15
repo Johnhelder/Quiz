@@ -31,3 +31,13 @@ h1 {
   height: 100%;
   transition: all ease .5s;
 }
+
+.questionArea,
+.scoreArea {
+    display: none;
+}
+
+.questionArea {
+    max-width: 500px;
+    width: 100%;
+}
