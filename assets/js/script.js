@@ -27,3 +27,11 @@ function showQuestion(){
     //acabaram as questões
   }
 }
+
+function optionClickEvent(e){
+  let clickedOption = parseInt(e.target.getAttribute('data-op'));
+
+  if(question[currentQuestion].answer === clickedOption){
+    correctAnswers++;
+  }
+}
