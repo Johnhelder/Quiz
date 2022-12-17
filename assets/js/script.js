@@ -10,6 +10,8 @@ function showQuestion(){
   if(questions[currentQuestion]){
     let q = questions[currentQuestion];
 
+    let pct = (currentQuestion / questions.length) * 100;
+
     document.querySelector('.scoreArea').style.display = 'none';
     document.querySelector('.questionArea').style.display = 'block';
 
@@ -34,4 +36,6 @@ function optionClickEvent(e){
   if(question[currentQuestion].answer === clickedOption){
     correctAnswers++;
   }
+  currentQuestion++;
+  showQuestion();
 }
