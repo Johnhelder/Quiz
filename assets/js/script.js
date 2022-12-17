@@ -19,6 +19,9 @@ function showQuestion(){
       optionsHtml += `<div class="option"><span>${parseInt(i)+1}</span>${q.options[i]}</div>`;
     }
     document.querySelector('.options').innerHTML = optionsHtml;
+    document.querySelectorAll('.options .option').forEach(item => {
+      item.addEventListener('click', optionClickEvent);
+    })
   }else{
     //acabaram as questões
   }
