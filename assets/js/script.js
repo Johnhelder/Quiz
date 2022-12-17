@@ -10,7 +10,8 @@ function showQuestion(){
   if(questions[currentQuestion]){
     let q = questions[currentQuestion];
 
-    let pct = (currentQuestion / questions.length) * 100;
+    let pct = Math.floor((currentQuestion / questions.length) * 100);
+    document.querySelector('.progress--bar').style.width = `${pct}%`;
 
     document.querySelector('.scoreArea').style.display = 'none';
     document.querySelector('.questionArea').style.display = 'block';
