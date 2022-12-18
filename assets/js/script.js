@@ -46,6 +46,11 @@ function optionClickEvent(e){
 function finishQuiz(){
 let points = Math.floor((correctAnswers / questions.length) * 100);
 
+if(points < 30){
+  document.querySelector('.scoreText1').innerHTML = 'Tá ruim em?';
+  document.querySelector('.scorePct').style.color = '#FF0000';
+}
+
 document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`;
 document.querySelector('.scoreText2').innerHTML = `Você respondeu ${questions.length} questões e acertou ${correctAnswers}`;
 
