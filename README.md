@@ -5,7 +5,7 @@ Sistema questionário feito em HTML, CSS e JavaScript
 <h3>Demo do Projeto</h3>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/11904100/208300977-5a97ab1e-b9a3-4946-a69c-f3a8f407d445.png" max-width="100%">
+<img src="https://user-images.githubusercontent.com/11904100/208302864-cdd0cf67-a228-4ca0-b168-831a440b5ba9.png" max-width="100%">
 </div><br>
  
  <h3>Objetivo do projeto</h3>
