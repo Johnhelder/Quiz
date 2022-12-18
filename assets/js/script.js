@@ -27,7 +27,8 @@ function showQuestion(){
       item.addEventListener('click', optionClickEvent);
     })
   }else{
-    //acabaram as questões
+    //Função finalizar o quiz
+    finishQuiz();
   }
 }
 
@@ -39,4 +40,11 @@ function optionClickEvent(e){
   }
   currentQuestion++;
   showQuestion();
+}
+
+// Função finalizar quiz
+function finishQuiz(){
+  document.querySelector('.scoreArea').style.display = 'block';
+  document.querySelector('.questionArea').style.display = 'none';
+  document.querySelector('.progress-bar').style.width = '100%';
 }
