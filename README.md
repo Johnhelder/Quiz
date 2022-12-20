@@ -16,7 +16,7 @@ focado HTML, CSS e JavaScript, as principais funcionalidades do sistema são esc
 <h3>Aprendizados</h3>
 
 <p>Nesse sistema coloquei em prática os conhecimentos de manipulação do DOM usando JavaScript.
-Também foi muito relevante práticar uso de funções, enventos, seleção de elementos, utilizar verificação para saber a quantidade de perguntas que acertou.</p>
+Também foi muito relevante práticar uso de funções, eventos, seleção de elementos, utilizar verificação para saber a quantidade de perguntas que acertou.</p>
 
 <h3>Funcionalidades do projeto</h3>
 Mostrar as perguntas<br>
